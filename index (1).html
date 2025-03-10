@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <header id="home">
+      <div class="container">
+        <h1>Sharanya</h1>
+        <p class="tagline">Passionate Web Developer</p>
+      </div>
+    </header>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+      <section id="about" class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="profile-image">
+            <img src="sharanya1.jpg.jpeg" alt="Sharanya" />
+          </div>
+          <div class="bio">
+            <p>Hello! I'm Sharanya, a passionate web developer with expertise in creating responsive and user-friendly websites.</p>
+            <p>I enjoy solving complex problems and turning ideas into beautiful, functional websites. When I'm not coding, you can find me hiking, reading, or experimenting with new technologies.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skill-card">
+            <i class="fas fa-code"></i>
+            <h3>Front-End</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Vue.js</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-server"></i>
+            <h3>Back-End</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>Python</li>
+              <li>PHP</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-tools"></i>
+            <h3>Tools</h3>
+            <ul>
+              <li>Git</li>
+              <li>VS Code</li>
+              <li>Figma</li>
+              <li>Adobe XD</li>
+              <li>Webpack</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="e.commerce.jpg" alt="Project 1" />
+            </div>
+            <div class="project-info">
+              <h3>E-Commerce Website</h3>
+              <p>A fully responsive e-commerce platform built with React and Node.js, featuring user authentication, product filtering, and payment integration.</p>
+              <div class="project-links">
+                <a href="#" class="btn">View Live</a>
+                <a href="#" class="btn">Source Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="task.jpg" alt="Project 2" />
+            </div>
+            <div class="project-info">
+              <h3>Task Management App</h3>
+              <p>A productivity application that helps users organize tasks, set deadlines, and track progress. Built with Vue.js and Firebase.</p>
+              <div class="project-links">
+                <a href="#" class="btn">View Live</a>
+                <a href="#" class="btn">Source Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="weather.jpg" alt="Project 3" />
+            </div>
+            <div class="project-info">
+              <h3>Weather Dashboard</h3>
+              <p>An interactive weather application that displays current and forecasted weather conditions for any location using a third-party API.</p>
+              <div class="project-links">
+                <a href="#" class="btn">View Live</a>
+                <a href="#" class="btn">Source Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="container">
+        <h2>Resume</h2>
+        <p>Download my resume to learn more about my education, work experience, and qualifications.</p>
+        <a href="" class="btn download-btn">Download resume(PDF)</a>
+      </section>
+
+      <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>devadigasharanya02@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <p>6363684795</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Mangaluru, India</p>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/Sharanya0209"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/sharanya-devadiga-4baa9630b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Sharanya. All Rights Reserved.</p>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
